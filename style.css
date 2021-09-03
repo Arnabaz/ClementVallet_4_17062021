@@ -44,11 +44,6 @@ a:hover {
     position: relative;
 }
 
-.bloc .container {
-    padding-left: 0;
-    padding-right: 0;
-}
-
 .bloc-lg {
     padding: 100px 50px;
 }
@@ -921,10 +916,7 @@ h4 {
         border-top: 1px solid rgba(0, 0, 0, .2);
         float: none!important;
     }
-    .navbar.row {
-        margin-left: 0;
-        margin-right: 0;
-    }
+
     .site-navigation {
         position: inherit;
         transform: none;
@@ -990,11 +982,7 @@ h4 {
     .bloc-lg {
         padding: 40px 0;
     }
-    .bloc-sm,
-    .bloc-md {
-        padding-left: 0;
-        padding-right: 0;
-    }
+
     .bloc-tile-2 .container,
     .bloc-tile-3 .container,
     .bloc-tile-4 .container,
