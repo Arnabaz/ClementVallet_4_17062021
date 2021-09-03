@@ -705,7 +705,12 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto;
+}
+
+.social_flex {
+    display: flex;
+    justify-content: space-between;
 }
 
 h2 {
@@ -1089,5 +1094,4 @@ span.display-none {
         background-image: url("img/background/1_xlarge/image-de-presentation-1.webp");
     }
 }
-
 
