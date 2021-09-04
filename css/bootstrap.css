@@ -1991,7 +1991,7 @@ pre code {
     }
 }
 
-@media (min-width:992px) {
+@media (min-width:991px) {
     .container {
         width: 970px
     }
@@ -2010,9 +2010,17 @@ pre code {
     margin-left: auto
 }
 
-.row {
-    margin-right: -15px;
-    margin-left: -15px
+@media screen and (max-width: 450px) {
+    .row {
+        margin-right: 0px;
+        margin-left: 0px
+    }
+}
+@media screen and (min-width: 450px) {
+    .row {
+        margin-right: 0px;
+        margin-left: 0px
+    }
 }
 
 .col-lg-1,
@@ -2065,8 +2073,6 @@ pre code {
 .col-xs-9 {
     position: relative;
     min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px
 }
 
 .col-xs-1,
