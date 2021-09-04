@@ -1107,12 +1107,12 @@ span.display-none {
 blockquote .quote {
     font-size:20px;
     font-style:italic;
-    color: rgba(0, 0, 0, 0.55);
+    color: rgba(0, 0, 0, 0.65);
     text-align: center;
 }
 blockquote span {
     display: block;
     justify-content: center;
-    color: rgba(0, 0, 0, 0.45);
+    color: rgba(0, 0, 0, 0.5);
     font-size: 14px;
 }
